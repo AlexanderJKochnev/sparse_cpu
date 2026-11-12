@@ -1,6 +1,11 @@
 services:
   sparse-embedder:
     build: .
+    logging:
+      driver: ${LOGGER_DRIVER}
+      options:
+        max-size: ${MAX_SIZE}
+        max-file: ${MAX_FILE}
     container_name: sparse-embedder
     restart: unless-stopped
     environment:
