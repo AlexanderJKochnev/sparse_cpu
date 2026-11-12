@@ -1,0 +1,11 @@
+```text
+sparse_cpu/
+├─app/
+├─LICENSE
+├─requirements.txt
+├─Dockerfile
+├─README.md
+├─.gitignore
+├─.env
+└─docker-compose.yml
+```
