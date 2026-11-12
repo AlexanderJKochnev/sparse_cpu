@@ -2,7 +2,7 @@ FROM python:3.12-slim
 WORKDIR /app
 
 RUN pip install --no-cache-dir \
-        torch==2.2.2 \
+        torch==2.6.0 \
         --index-url https://download.pytorch.org/whl/cpu
 
 COPY requirements.txt .
